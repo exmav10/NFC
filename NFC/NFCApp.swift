@@ -11,7 +11,7 @@ import SwiftUI
 struct NFCApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CardListView(viewModel: CardListViewModel())
         }
     }
 }
