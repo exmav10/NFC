@@ -15,6 +15,7 @@
 		BB46AB0C2966B3AD000111C8 /* NFCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB0B2966B3AD000111C8 /* NFCUITestsLaunchTests.swift */; };
 		BB46AB192966B55E000111C8 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB182966B55E000111C8 /* CardListViewModel.swift */; };
 		BB46AB1B2966B56B000111C8 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB1A2966B56B000111C8 /* CardListView.swift */; };
+		BBE270F7297DBE4A00A6EE1A /* TagReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE270F6297DBE4A00A6EE1A /* TagReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BB46AB0B2966B3AD000111C8 /* NFCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BB46AB182966B55E000111C8 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
 		BB46AB1A2966B56B000111C8 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
+		BBE270F6297DBE4A00A6EE1A /* TagReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				BB46AAF42966B3AD000111C8 /* Preview Content */,
 				BB46AB182966B55E000111C8 /* CardListViewModel.swift */,
 				BB46AB1A2966B56B000111C8 /* CardListView.swift */,
+				BBE270F6297DBE4A00A6EE1A /* TagReader.swift */,
 			);
 			path = NFC;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB46AAEE2966B3AB000111C8 /* NFCApp.swift in Sources */,
+				BBE270F7297DBE4A00A6EE1A /* TagReader.swift in Sources */,
 				BB46AB1B2966B56B000111C8 /* CardListView.swift in Sources */,
 				BB46AB192966B55E000111C8 /* CardListViewModel.swift in Sources */,
 			);

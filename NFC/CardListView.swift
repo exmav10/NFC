@@ -15,7 +15,13 @@ struct CardListView: View {
     }
 
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 30) {
+            Text("the result: ")
+            Button("Read NFC Tag") {
+                viewModel.startNFCSession()
+            }
+            .font(.title)
+        }
     }
 }
 
