@@ -3,4 +3,118 @@
    uuid = "36C02B68-2716-4E92-A769-FDABFA6BF185"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9606FC6B-397E-4162-A259-C4DE58C3B4BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NFC/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
+            landmarkName = "tagReaderSession(_:didDetect:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9606FC6B-397E-4162-A259-C4DE58C3B4BE - 9b4c4cb2c70b6e4b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in NFC.PassportReader.tagReaderSession(_: __C.NFCTagReaderSession, didDetect: Swift.Array&lt;CoreNFC.NFCTag&gt;) -&gt; ()"
+                  moduleName = "NFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aydinunal/NFC/NFC/PassportReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "9606FC6B-397E-4162-A259-C4DE58C3B4BE - ca4690a48218804a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async -&gt; () in NFC.PassportReader.tagReaderSession(_: __C.NFCTagReaderSession, didDetect: Swift.Array&lt;CoreNFC.NFCTag&gt;) -&gt; ()"
+                  moduleName = "NFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aydinunal/NFC/NFC/PassportReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "201"
+                  endingLineNumber = "201"
+                  offsetFromSymbolStart = "672">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "07980522-80B8-4AD0-A2BC-84B5DA2F6CBF"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NFC/PassportReader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "197"
+            endingLineNumber = "197"
+            landmarkName = "tagReaderSession(_:didDetect:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "07980522-80B8-4AD0-A2BC-84B5DA2F6CBF - 9b4c4cb2c70b6fcf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(5) suspend resume partial function for closure #1 @Sendable () async -&gt; () in NFC.PassportReader.tagReaderSession(_: __C.NFCTagReaderSession, didDetect: Swift.Array&lt;CoreNFC.NFCTag&gt;) -&gt; ()"
+                  moduleName = "NFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aydinunal/NFC/NFC/PassportReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "07980522-80B8-4AD0-A2BC-84B5DA2F6CBF - ca4690a4821881ce"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(6) suspend resume partial function for closure #1 @Sendable () async -&gt; () in NFC.PassportReader.tagReaderSession(_: __C.NFCTagReaderSession, didDetect: Swift.Array&lt;CoreNFC.NFCTag&gt;) -&gt; ()"
+                  moduleName = "NFC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aydinunal/NFC/NFC/PassportReader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "197"
+                  endingLineNumber = "197"
+                  offsetFromSymbolStart = "452">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB223600-DFEB-47B6-A1E5-24B1A352B178"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NFC/CardListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "tagReaderSession(_:didDetect:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

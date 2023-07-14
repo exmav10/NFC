@@ -43,13 +43,14 @@
 		BB0F45632998DE060041E8A5 /* NotImplementedDG.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0F45622998DE060041E8A5 /* NotImplementedDG.swift */; };
 		BB0F45652998DE190041E8A5 /* DataGroup12.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0F45642998DE190041E8A5 /* DataGroup12.swift */; };
 		BB0F45672998DE2C0041E8A5 /* ActiveAuthenticationInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0F45662998DE2C0041E8A5 /* ActiveAuthenticationInfo.swift */; };
+		BB0F4569299911F30041E8A5 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0F4568299911F30041E8A5 /* CardListViewModel.swift */; };
 		BB46AAEE2966B3AB000111C8 /* NFCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AAED2966B3AB000111C8 /* NFCApp.swift */; };
 		BB46AAF22966B3AD000111C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB46AAF12966B3AD000111C8 /* Assets.xcassets */; };
 		BB46AAF62966B3AD000111C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB46AAF52966B3AD000111C8 /* Preview Assets.xcassets */; };
 		BB46AB002966B3AD000111C8 /* NFCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AAFF2966B3AD000111C8 /* NFCTests.swift */; };
 		BB46AB0A2966B3AD000111C8 /* NFCUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB092966B3AD000111C8 /* NFCUITests.swift */; };
 		BB46AB0C2966B3AD000111C8 /* NFCUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB0B2966B3AD000111C8 /* NFCUITestsLaunchTests.swift */; };
-		BB46AB192966B55E000111C8 /* CardListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB182966B55E000111C8 /* CardListViewModel.swift */; };
+		BB46AB192966B55E000111C8 /* PassportReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB182966B55E000111C8 /* PassportReader.swift */; };
 		BB46AB1B2966B56B000111C8 /* CardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB46AB1A2966B56B000111C8 /* CardListView.swift */; };
 		BBE270F7297DBE4A00A6EE1A /* TagReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE270F6297DBE4A00A6EE1A /* TagReader.swift */; };
 /* End PBXBuildFile section */
@@ -107,17 +108,18 @@
 		BB0F45622998DE060041E8A5 /* NotImplementedDG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotImplementedDG.swift; sourceTree = "<group>"; };
 		BB0F45642998DE190041E8A5 /* DataGroup12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGroup12.swift; sourceTree = "<group>"; };
 		BB0F45662998DE2C0041E8A5 /* ActiveAuthenticationInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveAuthenticationInfo.swift; sourceTree = "<group>"; };
+		BB0F4568299911F30041E8A5 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		BB0F456A299918C60041E8A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BB46AAEA2966B3AB000111C8 /* NFC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NFC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB46AAED2966B3AB000111C8 /* NFCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCApp.swift; sourceTree = "<group>"; };
 		BB46AAF12966B3AD000111C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB46AAF32966B3AD000111C8 /* NFC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NFC.entitlements; sourceTree = "<group>"; };
 		BB46AAF52966B3AD000111C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB46AAFB2966B3AD000111C8 /* NFCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB46AAFF2966B3AD000111C8 /* NFCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCTests.swift; sourceTree = "<group>"; };
 		BB46AB052966B3AD000111C8 /* NFCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NFCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB46AB092966B3AD000111C8 /* NFCUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCUITests.swift; sourceTree = "<group>"; };
 		BB46AB0B2966B3AD000111C8 /* NFCUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		BB46AB182966B55E000111C8 /* CardListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListViewModel.swift; sourceTree = "<group>"; };
+		BB46AB182966B55E000111C8 /* PassportReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassportReader.swift; sourceTree = "<group>"; };
 		BB46AB1A2966B56B000111C8 /* CardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListView.swift; sourceTree = "<group>"; };
 		BBE270F6297DBE4A00A6EE1A /* TagReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -211,16 +213,17 @@
 		BB46AAEC2966B3AB000111C8 /* NFC */ = {
 			isa = PBXGroup;
 			children = (
+				BB0F456A299918C60041E8A5 /* Info.plist */,
 				BB0F45222998CDF70041E8A5 /* NFCReaderUtilities */,
 				BB46AAED2966B3AB000111C8 /* NFCApp.swift */,
 				BB46AAF12966B3AD000111C8 /* Assets.xcassets */,
-				BB46AAF32966B3AD000111C8 /* NFC.entitlements */,
 				BB46AAF42966B3AD000111C8 /* Preview Content */,
-				BB46AB182966B55E000111C8 /* CardListViewModel.swift */,
+				BB46AB182966B55E000111C8 /* PassportReader.swift */,
 				BB46AB1A2966B56B000111C8 /* CardListView.swift */,
 				BBE270F6297DBE4A00A6EE1A /* TagReader.swift */,
 				BB0F451E2994354F0041E8A5 /* NFCPassportModel.swift */,
 				BB0F4520299435970041E8A5 /* Logging.swift */,
+				BB0F4568299911F30041E8A5 /* CardListViewModel.swift */,
 			);
 			path = NFC;
 			sourceTree = "<group>";
@@ -406,6 +409,7 @@
 				BB0F452E2998D0F30041E8A5 /* DataGroup11.swift in Sources */,
 				BB0F45432998DB320041E8A5 /* PACEInfo.swift in Sources */,
 				BB0F45382998D2790041E8A5 /* ResponseAPDU.swift in Sources */,
+				BB0F4569299911F30041E8A5 /* CardListViewModel.swift in Sources */,
 				BBE270F7297DBE4A00A6EE1A /* TagReader.swift in Sources */,
 				BB0F453F2998DA6D0041E8A5 /* PACEHandler.swift in Sources */,
 				BB0F45362998D25B0041E8A5 /* 3DES_DESEncryption.swift in Sources */,
@@ -423,7 +427,7 @@
 				BB0F454F2998DC760041E8A5 /* DataGroup14.swift in Sources */,
 				BB0F45242998CE0B0041E8A5 /* DataGroup.swift in Sources */,
 				BB0F455F2998DDCC0041E8A5 /* DataGroup2.swift in Sources */,
-				BB46AB192966B55E000111C8 /* CardListViewModel.swift in Sources */,
+				BB46AB192966B55E000111C8 /* PassportReader.swift in Sources */,
 				BB0F45492998DC220041E8A5 /* ChipAuthenticationInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +587,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFC/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC usage permission is necessary for this application.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -621,6 +626,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NFC/Info.plist;
 				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC usage permission is necessary for this application.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;

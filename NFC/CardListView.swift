@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct CardListView: View {
-    @ObservedObject private var viewModel: PassportReader
+    @ObservedObject private var viewModel: CardListViewModel
 
-    init(viewModel: PassportReader) {
+    init(viewModel: CardListViewModel) {
         self.viewModel = viewModel
     }
 
@@ -18,7 +18,7 @@ struct CardListView: View {
         VStack(spacing: 30) {
             Text("the result: ")
             Button("Read NFC Tag") {
-
+                viewModel.read()
             }
             .font(.title)
         }
@@ -27,6 +27,6 @@ struct CardListView: View {
 
 struct CardListView_Previews: PreviewProvider {
     static var previews: some View {
-        CardListView(viewModel: PassportReader())
+        CardListView(viewModel: CardListViewModel())
     }
 }
